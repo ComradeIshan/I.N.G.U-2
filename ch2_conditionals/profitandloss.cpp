@@ -8,7 +8,7 @@ int main()
     cin >> costPrice;
     cout << "Enter the selling price: ";
     cin >> sellingPrice;
-    if (sellingPrice > costPrice) {
+    if (sellingPrice > costPrice) {    //revise 
         cout << "Your profit is " << sellingPrice - costPrice;
     } else if (sellingPrice < costPrice) {
         cout << "Your loss is " << costPrice - sellingPrice;
