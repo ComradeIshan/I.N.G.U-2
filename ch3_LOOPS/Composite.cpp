@@ -9,7 +9,7 @@ int main()
     for (int i=n/2; i>1; i--) {
         if (n%i==0) 
         {cout << "The number is composite.";
-        break;} else cout << "The no. is not compostie.\n";
+        break;} else cout << "The no. is not compostie.\n"; break;
     }
     return 0;
 }
