@@ -11,7 +11,7 @@ int main()
         if (n%i==0) {
             flag = false; // flase the no. is composite
             break;   // to get out of the loop.
-        }
+        } 
     }
     if (n==1) cout << "Neither prime nor composite";
     else if (flag == true) cout << "The no. is prime";
