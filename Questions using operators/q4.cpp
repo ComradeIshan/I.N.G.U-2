@@ -14,6 +14,6 @@ int main()
             sum += last_digit;
         }  
     }
-    cout << sum;
+    cout << sum; 
     return 0;
 }
