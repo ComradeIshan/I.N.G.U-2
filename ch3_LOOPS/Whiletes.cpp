@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int i;                            //This is an infinite loop!!!!
-    while (i=10) {
+    while (i==10) {
         cout << i << endl;
         i = i+1;
     }
